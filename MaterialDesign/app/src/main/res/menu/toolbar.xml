@@ -4,20 +4,17 @@
 
     <item
         android:id="@+id/backup"
-        android:icon="@drawable/backup"
+        android:icon="@drawable/ic_backup"
         android:title="Backup"
         app:showAsAction="always"/>
-
     <item
         android:id="@+id/delete"
-        android:icon="@drawable/delete"
+        android:icon="@drawable/ic_delete"
         android:title="Delete"
         app:showAsAction="ifRoom"/>
-
     <item
         android:id="@+id/settings"
-        android:icon="@drawable/settings"
+        android:icon="@drawable/ic_settings"
         android:title="Settings"
         app:showAsAction="never"/>
-
 </menu>

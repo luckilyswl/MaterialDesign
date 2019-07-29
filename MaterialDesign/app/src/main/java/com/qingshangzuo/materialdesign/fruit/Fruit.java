@@ -3,9 +3,10 @@ package com.qingshangzuo.materialdesign.fruit;
 public class Fruit {
 
     private String name;
+
     private int imageId;
 
-    public Fruit(String name,int imageId){
+    public Fruit(String name, int imageId) {
         this.name = name;
         this.imageId = imageId;
     }
@@ -17,4 +18,5 @@ public class Fruit {
     public int getImageId() {
         return imageId;
     }
+
 }
